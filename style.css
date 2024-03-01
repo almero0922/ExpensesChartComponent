@@ -1,0 +1,40 @@
+:root {
+  --softRed: hsl(10, 79%, 65%);
+  --cyan: hsl(186, 34%, 60%);
+  --darkBrown: hsl(25, 47%, 15%);
+  --mediumBrown: hsl(28, 10%, 53%);
+  --cream: hsl(27, 66%, 92%);
+  --veryPaleOrange: hsl(33, 100%, 98%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--cream);
+}
+.header-info{
+    background-color: var(--softRed);
+    width: 344px;
+    height: 114px;
+    margin: 44px 0 14px 0;
+    border-radius: 14px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-info h4{
+    margin-bottom: 0.8rem;
+    color: var(--veryPaleOrange);
+    font-weight: 400;
+}
+.header-info h2{
+    color: var(--veryPaleOrange);
+}
