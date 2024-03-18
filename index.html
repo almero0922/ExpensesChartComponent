@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Expenses chart component</title>
 
@@ -32,13 +32,54 @@
           <h2 id="total_balance">$921.48</h2>
         </div>
         <div class="logo">
-          <img src="./images/logo.svg" alt="">
+          <img src="./images/logo.svg" alt="" />
         </div>
       </section>
-      <section>
-        <div></div>
-        <div></div>
-        <div></div>
+      <section class="container-info">
+        <div class="container-title">
+          <p>Spending - Last 7 days</p>
+        </div>
+        <div class="container-chart">
+          <div class="container-bar">
+            <div class="chart-bar"></div>
+            <p class="bar-label">mon</p>
+          </div>
+          <div class="container-bar">
+            <div class="chart-bar"></div>
+            <p class="bar-label">tue</p>
+          </div>
+          <div class="container-bar">
+            <div class="chart-bar"></div>
+            <p class="bar-label">wed</p>
+          </div>
+          <div class="container-bar">
+            <div class="chart-bar"></div>
+            <p class="bar-label">thu</p>
+          </div>
+          <div class="container-bar">
+            <div class="chart-bar"></div>
+            <p class="bar-label">fri</p>
+          </div>
+          <div class="container-bar">
+            <div class="chart-bar"></div>
+            <p class="bar-label">sat</p>
+          </div>
+          <div class="container-bar">
+            <div class="chart-bar"></div>
+            <p class="bar-label">sun</p>
+          </div>
+        </div>
+        <hr class="info-separator">
+        <div class="container-summary">
+          <div class="summary-total">
+            <p>Total this month</p>
+            <h3>$478.33</h3>
+          </div>
+          <div class="summary-count">
+            <h5>+2.4%</h5>
+            <p>from last month</p>
+          </div>
+        </div>
       </section>
     </main>
   </body>
